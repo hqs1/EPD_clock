@@ -1,0 +1,386 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HQS,  , LIC=VGXG8-31WM7-NN0AF-6ENUK-27WG0-ZARN4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+E:\GitHub_openproject\MCU_Project\MDK-ARM\tuyaepd_clock.uvprojx
+Project File Date:  02/24/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'epd_clock'
+assembling startup_stm32l051xx.s...
+compiling tim.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/tim.c: 2 warnings, 0 errors
+compiling rtc.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/rtc.c(34): warning:  #177-D: variable "sAlarm"  was declared but never referenced
+    RTC_AlarmTypeDef sAlarm = {0};
+../Src/rtc.c: 3 warnings, 0 errors
+compiling spi.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/spi.c: 2 warnings, 0 errors
+compiling gpio.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/gpio.c: 2 warnings, 0 errors
+compiling usart.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/usart.c: 2 warnings, 0 errors
+compiling i2c.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/i2c.c: 2 warnings, 0 errors
+compiling stm32l0xx_hal_msp.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/stm32l0xx_hal_msp.c: 2 warnings, 0 errors
+compiling stm32l0xx_it.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+../Src/stm32l0xx_it.c: 3 warnings, 0 errors
+compiling adc.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/adc.c: 2 warnings, 0 errors
+compiling system_stm32l0xx.c...
+compiling main.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\BSP\SHT30\sht30.h(17): warning:  #1295-D: Deprecated declaration SHT30_ReadData - give arg types
+  SHT30_T SHT30_ReadData();
+..\BSP\SHT30\sht30.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\gui.h(28): warning:  #1295-D: Deprecated declaration GUI_Clear - give arg types
+  void GUI_Clear();
+..\APP\gui.h(30): warning:  #1295-D: Deprecated declaration GUI_SetNet_UI - give arg types
+  void GUI_SetNet_UI();
+..\APP\gui.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\Battery\Battery.h(23): warning:  #1295-D: Deprecated declaration Battery_Read - give arg types
+  BATTERY_T Battery_Read();
+..\BSP\Battery\Battery.h(24): warning:  #1295-D: Deprecated declaration Battery_Serve - give arg types
+  uint8_t Battery_Serve();
+..\BSP\Battery\Battery.h(25): warning:  #1295-D: Deprecated declaration Charg_Read - give arg types
+  CHARGE_T Charg_Read();
+..\BSP\Battery\Battery.h(26): warning:  #1295-D: Deprecated declaration Charge_Serve - give arg types
+  void Charge_Serve();
+..\BSP\Battery\Battery.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c: 13 warnings, 0 errors
+compiling font8.c...
+compiling font12.c...
+compiling font16.c...
+compiling font20.c...
+compiling font24.c...
+compiling font12CN.c...
+compiling font48.c...
+..\Fonts\font48.c(720): warning:  #1-D: last line of file ends without a newline
+  };
+..\Fonts\font48.c: 1 warning, 0 errors
+compiling imagedata.c...
+..\BSP\EPD\imagedata.c(512): warning:  #1-D: last line of file ends without a newline
+  };
+..\BSP\EPD\imagedata.c: 1 warning, 0 errors
+compiling epdpaint.c...
+compiling sht30.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\SHT30\sht30.h(17): warning:  #1295-D: Deprecated declaration SHT30_ReadData - give arg types
+  SHT30_T SHT30_ReadData();
+..\BSP\SHT30\sht30.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\SHT30\sht30.c: 4 warnings, 0 errors
+compiling app.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\SHT30\sht30.h(17): warning:  #1295-D: Deprecated declaration SHT30_ReadData - give arg types
+  SHT30_T SHT30_ReadData();
+..\BSP\SHT30\sht30.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\gui.h(28): warning:  #1295-D: Deprecated declaration GUI_Clear - give arg types
+  void GUI_Clear();
+..\APP\gui.h(30): warning:  #1295-D: Deprecated declaration GUI_SetNet_UI - give arg types
+  void GUI_SetNet_UI();
+..\APP\gui.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\Battery\battery.h(23): warning:  #1295-D: Deprecated declaration Battery_Read - give arg types
+  BATTERY_T Battery_Read();
+..\BSP\Battery\battery.h(24): warning:  #1295-D: Deprecated declaration Battery_Serve - give arg types
+  uint8_t Battery_Serve();
+..\BSP\Battery\battery.h(25): warning:  #1295-D: Deprecated declaration Charg_Read - give arg types
+  CHARGE_T Charg_Read();
+..\BSP\Battery\battery.h(26): warning:  #1295-D: Deprecated declaration Charge_Serve - give arg types
+  void Charge_Serve();
+..\BSP\Battery\battery.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\sleep.h(14): warning:  #1295-D: Deprecated declaration Sleep_mcu - give arg types
+  void Sleep_mcu();
+..\APP\sleep.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\OTA\ota_flash.h(37): warning:  #1295-D: Deprecated declaration OTA_Flash_Erase - give arg types
+  uint8_t OTA_Flash_Erase();
+..\BSP\OTA\ota_flash.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\app.c(25): warning:  #1295-D: Deprecated declaration APP_Reset_Zigbee - give arg types
+  static void APP_Reset_Zigbee();
+..\APP\app.c(26): warning:  #1295-D: Deprecated declaration APP_Get_Time - give arg types
+  static void APP_Get_Time();
+..\APP\app.c(350): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\app.c: 20 warnings, 0 errors
+compiling gui.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\gui.h(28): warning:  #1295-D: Deprecated declaration GUI_Clear - give arg types
+  void GUI_Clear();
+..\APP\gui.h(30): warning:  #1295-D: Deprecated declaration GUI_SetNet_UI - give arg types
+  void GUI_SetNet_UI();
+..\APP\gui.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\SHT30\SHT30.h(17): warning:  #1295-D: Deprecated declaration SHT30_ReadData - give arg types
+  SHT30_T SHT30_ReadData();
+..\BSP\SHT30\SHT30.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\Battery\battery.h(23): warning:  #1295-D: Deprecated declaration Battery_Read - give arg types
+  BATTERY_T Battery_Read();
+..\BSP\Battery\battery.h(24): warning:  #1295-D: Deprecated declaration Battery_Serve - give arg types
+  uint8_t Battery_Serve();
+..\BSP\Battery\battery.h(25): warning:  #1295-D: Deprecated declaration Charg_Read - give arg types
+  CHARGE_T Charg_Read();
+..\BSP\Battery\battery.h(26): warning:  #1295-D: Deprecated declaration Charge_Serve - give arg types
+  void Charge_Serve();
+..\BSP\Battery\battery.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\gui.c(41): warning:  #223-D: function "sprintf" declared implicitly
+      sprintf(value, "Ver:%s", MCU_VER);
+..\APP\gui.c(96): warning:  #223-D: function "sprintf" declared implicitly
+      sprintf(value, "voltage:%0.2fV", battery_value);
+..\APP\gui.c(150): warning:  #223-D: function "sprintf" declared implicitly
+      sprintf(string_buf, "%02d:%02d", Hours, Minutes);
+..\APP\gui.c(207): warning:  #1182-D: a declaration cannot have a label
+          float fwsize = fw_data.mcu_ota_fw_size;
+..\APP\gui.c(208): warning:  #223-D: function "sprintf" declared implicitly
+          sprintf(string_buf, "OTA Ver:%d.%d.%d", (fw_data.mcu_ota_ver & 0xc0) >> 6, (fw_data.mcu_ota_ver & 0x30) >> 4, fw_data.mcu_ota_ver & 0x0f);
+..\APP\gui.c(191): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "fwsize"  (declared at line 207)
+      switch (data)
+      ^
+..\APP\gui.c(285): warning:  #1-D: last line of file ends without a newline
+  */
+..\APP\gui.c: 20 warnings, 0 errors
+compiling sleep.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\sleep.h(14): warning:  #1295-D: Deprecated declaration Sleep_mcu - give arg types
+  void Sleep_mcu();
+..\APP\sleep.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\sleep.c(13): warning:  #1295-D: Deprecated declaration Exit_Sleep_config - give arg types
+  static void Exit_Sleep_config();
+..\APP\sleep.c(14): warning:  #1295-D: Deprecated declaration WakeupGpio_Config - give arg types
+  static void WakeupGpio_Config();
+..\APP\sleep.c(177): warning:  #223-D: function "SystemClock_Config" declared implicitly
+      SystemClock_Config();
+..\APP\sleep.c(184): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\sleep.c: 8 warnings, 0 errors
+compiling epd2in13.c...
+compiling epdif.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\EPD\epdif.c: 2 warnings, 0 errors
+compiling ota_flash.c...
+..\BSP\OTA\ota_flash.h(37): warning:  #1295-D: Deprecated declaration OTA_Flash_Erase - give arg types
+  uint8_t OTA_Flash_Erase();
+..\BSP\OTA\ota_flash.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\gui.h(28): warning:  #1295-D: Deprecated declaration GUI_Clear - give arg types
+  void GUI_Clear();
+..\APP\gui.h(30): warning:  #1295-D: Deprecated declaration GUI_SetNet_UI - give arg types
+  void GUI_SetNet_UI();
+..\APP\gui.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\OTA\ota_flash.c(14): warning:  #1295-D: Deprecated declaration Get_FlashStatus - give arg types
+  static uint8_t Get_FlashStatus();
+..\BSP\OTA\ota_flash.c(17): warning:  #1295-D: Deprecated declaration GPIO_FLASH_init - give arg types
+  static void GPIO_FLASH_init();
+..\BSP\OTA\ota_flash.c(15): warning:  #177-D: function "flash_Write"  was declared but never referenced
+  static void flash_Write(uint32_t address, uint8_t *data, uint32_t length);
+..\BSP\OTA\ota_flash.c: 11 warnings, 0 errors
+compiling battery.c...
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\Battery\battery.h(23): warning:  #1295-D: Deprecated declaration Battery_Read - give arg types
+  BATTERY_T Battery_Read();
+..\BSP\Battery\battery.h(24): warning:  #1295-D: Deprecated declaration Battery_Serve - give arg types
+  uint8_t Battery_Serve();
+..\BSP\Battery\battery.h(25): warning:  #1295-D: Deprecated declaration Charg_Read - give arg types
+  CHARGE_T Charg_Read();
+..\BSP\Battery\battery.h(26): warning:  #1295-D: Deprecated declaration Charge_Serve - give arg types
+  void Charge_Serve();
+..\BSP\Battery\battery.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\gui.h(28): warning:  #1295-D: Deprecated declaration GUI_Clear - give arg types
+  void GUI_Clear();
+..\APP\gui.h(30): warning:  #1295-D: Deprecated declaration GUI_SetNet_UI - give arg types
+  void GUI_SetNet_UI();
+..\APP\gui.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\Battery\battery.c: 11 warnings, 0 errors
+compiling mcu_api.c...
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\mcu_sdk\mcu_api.c(627): warning:  #1-D: last line of file ends without a newline
+  }
+..\mcu_sdk\mcu_api.c: 2 warnings, 0 errors
+compiling protocol.c...
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\BSP\OTA\ota_flash.h(37): warning:  #1295-D: Deprecated declaration OTA_Flash_Erase - give arg types
+  uint8_t OTA_Flash_Erase();
+..\BSP\OTA\ota_flash.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\protocol.c(266): warning:  #68-D: integer conversion resulted in a change of sign
+  	unsigned char fw_data[FW_SINGLE_PACKET_SIZE] = {-1}; //
+..\mcu_sdk\protocol.c: 6 warnings, 0 errors
+compiling system.c...
+..\mcu_sdk\system.h(270): warning:  #1295-D: Deprecated declaration mcu_ota_fw_request - give arg types
+  void mcu_ota_fw_request();
+..\APP\app.h(83): warning:  #1295-D: Deprecated declaration APP_Check_Hardware - give arg types
+  void APP_Check_Hardware();
+..\APP\app.h(89): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\mcu_sdk\system.c(690): warning:  #1293-D: assignment in condition
+  	while (!(ret = *(unsigned char *)str1 - *(unsigned char *)str2) && *str1)
+..\mcu_sdk\system.c(710): warning:  #68-D: integer conversion resulted in a change of sign
+  		return -1;
+..\mcu_sdk\system.c: 5 warnings, 0 errors
+compiling stm32l0xx_hal.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_rtc.c...
+compiling stm32l0xx_hal_rtc_ex.c...
+compiling stm32l0xx_hal_uart_ex.c...
+compiling stm32l0xx_hal_uart.c...
+compiling stm32l0xx_hal_spi.c...
+compiling stm32l0xx_hal_tim.c...
+linking...
+Program Size: Code=28788 RO-data=25316 RW-data=140 ZI-data=6228  
+FromELF: creating hex file...
+After Build - User command #2: fromelf --bin -o "epd_clock\epd_clock.bin" "epd_clock\epd_clock.axf"
+"epd_clock\epd_clock.axf" - 0 Error(s), 124 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.2.1.0.pack
+                Keil.STM32L0xx_DFP.2.1.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_epd_clock
+  C:\Users\HQS\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\HQS\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
