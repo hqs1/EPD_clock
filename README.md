@@ -25,27 +25,29 @@
 
 # 成品效果
 
-![微信图片_20210226183528.jpg](//image.lceda.cn/pullimage/MCdeWMtlnvRZfPBhG63JkshoaFhyNsDIAFpuLJgI.jpeg)
+![成品图.jpg](./image/tuyaepd_4.jpeg)
 
 # 低功耗
 
 ​	这个作品大部分时间都花在扣功耗上，使用了4颗PMOS分别控制SPI FLASH、墨水屏、模组和电池电压测量电路。在不需要使用对应的器件时，关断电源减少不必要的功耗。
 ​	MCU通过RTC闹钟唤醒，初始化SPI和必要的GPIO并且刷新屏幕更新时间，当更新完成MCU将GPIO设置为模拟输入，减少不必要的功耗。目前休眠电流能压在平均35ua左右(模组长通电情况下)。
-![微信图片_20210226183538.jpg](//image.lceda.cn/pullimage/Zbr4P7ITQuerUoDmQYxGh1gPQyXpXqZ1N9DCrzSi.jpeg)
+![低功耗.jpg](./image/tuyaepd_2.jpeg)
   当然这个电流还能压，如果控制模组电源则休眠电流能压到2.7-3ua。(LDO静态电流+SHT30+MCU休眠电流)
 
 # 外壳
 
 ​	外壳使用的是fusion 360进行绘制的，PCB模型因为现在立创EDA暂时还不能导出step的文件模型，所以这里临时采用Altium Designer进行导出。
 稍微渲染一下的效果
-![PCB V3 v11.png](//image.lceda.cn/pullimage/uzltkqV6Kj5swLcCW7qVznHwpXx9ee1KRHt1SAyp.png)
+![PCB V3 v11.png](./image/PCB.png)
 有了PCB模型画外壳就事半功倍了，至少不用卡尺量PCB。
 外壳成品图
-![tuyaepd_1.jpg](//image.lceda.cn/pullimage/b1NmrORu8ocHDWEewyShMVnMd17EnFqZ7qmayPbL.png)
+![tuyaepd_1.jpg](./image/tuyaepd_5.png)
 渲染一下的效果
-![上盖带卡扣 v36.png](//image.lceda.cn/pullimage/SnrUWEt6t9ObvM5kxuyNb1Fa2sdbjY1Mlxah1aKj.png)
+![tuyaepd_1.jpg](./image/tuyaepd_1.png)
+
 实体装配后
-![微信图片_20210226183840.jpg](//image.lceda.cn/pullimage/mPzvJyIA3v9eP1aifNVv65OJCVjYpF8wwLVWJ2Rt.jpeg)
+![实体装配.jpg](./image/tuyaepd_3.jpeg)
+
 
 # 作品演示
 
